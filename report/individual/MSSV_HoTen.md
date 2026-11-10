@@ -4,12 +4,12 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
-- Link repo bài làm:
-- Link Colab đã chạy:
+- Họ tên: Trần Đức Kỳ
+- MSSV: 2A202603277
+- Email: tranducky
+- Lớp: 2LB
+- Link repo bài làm: 
+- Link Colab đã chạy: https://colab.research.google.com/drive/11EnzOQNE6sFuaEBdBV-pjnFyJ59EYR0c?usp=sharing
 
 ## 2. Schema và mini guideline
 
@@ -17,7 +17,7 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 ## 3. Annotation và self-QC
 
-- Số file nhãn train:
+- Số file nhãn train: 
 - Kết quả checker và lỗi đã xử lý:
 - Danh sách ít nhất 10 ảnh đã rà bằng mắt:
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:
@@ -27,14 +27,14 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| TP |470 | |
+| FP |562 | |
+| FN | 183| |
+| Precision |0.4554 | |
+| Recall |0.7198 | |
+| F1 |0.5579 | |
+| mean_iou_of_matches |0.8286| |
+| passed |false | |
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
@@ -46,10 +46,10 @@ Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi �
 
 | Chỉ số trên 10 ảnh eval | Giá trị |
 |---|---:|
-| Precision | |
-| Recall | |
-| mAP50 | |
-| mAP50–95 | |
+| Precision |0.236 |
+| Recall |0.326   |
+| mAP50 |0.292  |
+| mAP50–95 | 0.205|
 
 Đặt cả 2 folder `assets/eval_predictions/` và `assets/yolo26_runs/` (giải nén từ `day2_colab_outputs.zip`) cạnh báo cáo và dẫn link tương đối. Không chỉ ghi số; chỉ ra ít nhất một ảnh và vật thể cụ thể.
 
