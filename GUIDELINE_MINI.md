@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_001` | vật thể ở khá xa và bị vỡ hình| bỏ không đánh dấu| |
+| `drive_003` |vật thể chỉ hiện ra cái đầu | đánh dấu là xe van vì đầu xe khá to và giống với loại xe nhà di đông | |
+| `drive_020` |vật thể bị vật thể khác che mất phần trên của xe chỉ hiện ra bánh xe |đánh dấu là xe loại car vì có thể nhìn được loại xe dựa vào kết cấu của bánh | |
